@@ -101,7 +101,7 @@ case $skyport in
 clear
 echo -e "${GREEN}Starting SKYPORTD PANEL INSTALLER...${NC}"
 sleep 2
-bash <(curl -s https://raw.githubusercontent.com/ggghosain0-ux/skyportpanel5l-backup/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/ggghosain0-ux/skyport/main/panel.sh)
 read -p "Press Enter to continue..."
 ;;
 
@@ -109,7 +109,7 @@ read -p "Press Enter to continue..."
 clear
 echo -e "${GREEN}Starting SKYPORTD WINGS INSTALLER...${NC}"
 sleep 2
-bash <(curl -s https://raw.githubusercontent.com/ggghosain0-ux/skyportpanel5l-backup/main/wings.sh)
+bash <(curl -s https://raw.githubusercontent.com/ggghosain0-ux/skyport/main/wings)
 read -p "Press Enter to continue..."
 ;;
 
