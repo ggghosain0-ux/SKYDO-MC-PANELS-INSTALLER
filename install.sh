@@ -162,7 +162,7 @@ clear
 echo -e "${GREEN}Starting PUFFER PANEL INSTALLER...${NC}"
 sleep 2
 
-bash <(curl -s https://raw.githubusercontent.com/JishnuTheGamer/puffer-panel/refs/heads/main/install)
+bash <(curl -s https://raw.githubusercontent.com/JishnuTheGamer/puffer-panel/main/install)
 
 echo ""
 echo -e "${CYAN}Create Admin User:${NC}"
