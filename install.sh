@@ -187,7 +187,7 @@ read -p "Press Enter to continue..."
 clear
 echo -e "${GREEN}Starting DRACO PANEL INSTALLER...${NC}"
 sleep 2
-bash <(curl -fsSL https://raw.githubusercontent.com/ggghosain0-ux/Draco-Panel/main/setup.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/ggghosain0-ux/Draco/main/install.sh)
 read -p "Press Enter to continue..."
 ;;
 
