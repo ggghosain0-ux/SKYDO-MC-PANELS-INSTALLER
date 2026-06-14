@@ -129,7 +129,7 @@ esac
 clear
 echo -e "${GREEN}Starting PTERODACTYL PANEL INSTALLER...${NC}"
 sleep 2
-bash <(curl -sSL https://raw.githubusercontent.com/ggghosain0-ux/Hahaha/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/pterodactyl-installer/pterodactyl-installer/master/install.sh)
 read -p "Press Enter to continue..."
 ;;
 
@@ -137,7 +137,7 @@ read -p "Press Enter to continue..."
 clear
 echo -e "${GREEN}Starting JEXACTYL PANEL INSTALLER...${NC}"
 sleep 2
-bash <(curl -fsSL https://raw.githubusercontent.com/DreamHost2ws/ExtremLightingCode/main/panel/Jexactyl/run.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/Blxvyy/Jexactyl-Installation-Script/blob/main/install.sh
 read -p "Press Enter to continue..."
 ;;
 
@@ -162,7 +162,7 @@ clear
 echo -e "${GREEN}Starting PUFFER PANEL INSTALLER...${NC}"
 sleep 2
 
-bash <(curl -s https://raw.githubusercontent.com/JishnuTheGamer/puffer-panel/main/install)
+bash <(curl -s https://raw.githubusercontent.com/JishnuTheGamer/Puffer-panel-installer/main/Installer)
 
 echo ""
 echo -e "${CYAN}Create Admin User:${NC}"
